@@ -1,0 +1,85 @@
+.excursions-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.excursions-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.excursions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.excursion-item {
+  margin-bottom: 10px;
+}
+
+.excursion-form {
+  margin-top: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.excursions-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.excursions-container,
+.registration-container {
+  flex: 1; 
+}
+
+.excursions-container {
+  position: relative; 
+}
+
+.pin-code-container {
+  position: absolute;
+  bottom: -4rem; 
+  left: 0; 
+  width: 73%; 
+  background-color: #ffffff; 
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.pin-code {
+  margin: 0; 
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+

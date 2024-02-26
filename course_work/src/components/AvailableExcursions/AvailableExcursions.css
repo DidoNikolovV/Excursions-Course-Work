@@ -1,0 +1,10 @@
+.available-excursions {
+    width: 30%; 
+    padding: 1rem; 
+}
+  
+.excursions-container {
+    width: 70%;  
+    padding: 1.5rem; 
+    margin-right: 5rem;
+}

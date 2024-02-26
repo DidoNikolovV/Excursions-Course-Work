@@ -1,0 +1,12 @@
+#root {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  position: fixed; /* or position: absolute; */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
